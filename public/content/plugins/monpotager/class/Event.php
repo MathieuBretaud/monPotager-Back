@@ -128,10 +128,8 @@ class Event
         $monthReturn = strftime("%B",strtotime($fullDate));
 
         $listEvent = [];
-
         $listEvent['selectedRegion'] = array('id' => $idRegionSelected,
                                             'name' => $regionSelectedSlug);
-
         $listEvent['selectedPeriod']['startDate'] = $monthReturn;
         
         foreach($listPeriodeRegions as $plante => $data) {

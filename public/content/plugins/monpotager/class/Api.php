@@ -85,7 +85,7 @@ class Api
             'monpotager/v1',
             '/user-delete', 
             [
-                'methods' => 'post',
+                'methods' => 'get',
                 'callback' => [$this, 'userDelete']
             ]
         );
@@ -288,7 +288,8 @@ class Api
     {
         require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 
-        $id_user = $request->get_param('id_user');
+        $user = wp_get_current_user();
+        $id_user = $user->id;
 
          if(wp_delete_user($id_user))
          {
