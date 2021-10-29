@@ -11,7 +11,7 @@ se placer dans le dossier bin, configurer le fichier puis exécuter le fichier `
 Pour installer le backoffice en local, après avoir télécharger le repo, 
 se placer dans le dossier public, et lancer la commande 'composer install' pour télécharger les fichiers de Wordpress.
 
-Toujours dans le dossier public, créer et configurer le fichier de wp-config.php
+Toujours dans le dossier public, créer et configurer le fichier wp-config.php
 
 ```php
 <?php
