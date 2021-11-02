@@ -3,7 +3,7 @@
 
 ## Installation sur serveur:
 
-Pour lancer l'installation sur un serveur, placer le repo dans var/www/html puis suivre le readme dans le dossier bin
+Placer le repo dans var/www/html sur le serveur, puis suivre le readme dans le dossier bin
 
 ## Installation en local:
 
