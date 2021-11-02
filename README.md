@@ -3,8 +3,7 @@
 
 ## Installation sur serveur:
 
-Pour lancer l'installation sur un serveur, après avoir télécharger le repo,
-se placer dans le dossier bin, configurer le fichier puis exécuter le fichier ``` bash install.sh ../public ``` dans var/www/html/
+Pour lancer l'installation sur un serveur, placer le repo dans var/www/html puis suivre le readme dans le dossier bin
 
 ## Installation en local:
 
