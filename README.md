@@ -8,10 +8,12 @@ se placer dans le dossier bin, configurer le fichier puis exécuter le fichier `
 
 ## Installation en local:
 
-Pour installer le backoffice en local, après avoir télécharger le repo, 
-se placer dans le dossier public, et lancer la commande 'composer install' pour télécharger les fichiers de Wordpress.
+Pour installer le backoffice en local:
+- Télécharger le repo, 
+- Se placer dans le dossier public, et lancer la commande 'composer install' pour télécharger les fichiers de Wordpress.
+Si erreur 'no lock file', lancer la commande 'composer update'.
 
-Toujours dans le dossier public, créer et configurer le fichier wp-config.php
+- Toujours dans le dossier public, créer et configurer le fichier wp-config.php
 
 ```php
 <?php
@@ -123,9 +125,9 @@ require_once ABSPATH . 'wp-settings.php';
 
 ```
 
-Après avoir configurer le fichier (attention à bien modifier la racine de l'url du site), créer une base donnée et son utilisateur avec les mêmes accès.
+- Après avoir configurer le fichier (attention à bien modifier la racine de l'url du site), créer une base donnée et son utilisateur avec les mêmes accès rentrés dans le fichier.
 
-Puis lancer la commande d'installation,
+- Puis lancer la commande d'installation,
 ```sh
 wp core install --url="SITE_URL" --title="WORDPRESS_SITE_NAME" --admin_user="WORDPRESS_ADMIN_NAME" --admin_password="WORDPRESS_ADMIN_PASSWORD" --admin_email="WORDPRESS_ADMIN_EMAIL" --skip-email;
 ```
